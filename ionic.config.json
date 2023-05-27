@@ -1,0 +1,7 @@
+{
+  "name": "cardice",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
