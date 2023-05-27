@@ -4,17 +4,17 @@
       <ion-router-outlet></ion-router-outlet>
       <ion-tab-bar slot="bottom">
         <ion-tab-button tab="tab1" href="/tabs/tab1">
-          <ion-icon aria-hidden="true" :icon="triangle" />
+          <ion-icon aria-hidden="true" :icon="hammerOutline" />
           <ion-label>Tools</ion-label>
         </ion-tab-button>
 
         <ion-tab-button tab="tab2" href="/tabs/tab2">
-          <ion-icon aria-hidden="true" :icon="ellipse" />
+          <ion-icon aria-hidden="true" :icon="accessibilityOutline" />
           <ion-label>Character</ion-label>
         </ion-tab-button>
 
         <ion-tab-button tab="tab3" href="/tabs/tab3">
-          <ion-icon aria-hidden="true" :icon="square" />
+          <ion-icon aria-hidden="true" :icon="journalOutline" />
           <ion-label>Journal</ion-label>
         </ion-tab-button>
       </ion-tab-bar>
@@ -32,5 +32,9 @@ import {
   IonPage,
   IonRouterOutlet,
 } from "@ionic/vue";
-import { ellipse, square, triangle } from "ionicons/icons";
+import {
+  accessibilityOutline,
+  journalOutline,
+  hammerOutline,
+} from "ionicons/icons";
 </script>

@@ -2,7 +2,15 @@
   <ion-page>
     <ion-header>
       <ion-toolbar>
-        <ion-title>Journal</ion-title>
+        <nav>
+          <div>
+            <ion-icon aria-hidden="true" :icon="journalOutline" />
+            <ion-title>Journal</ion-title>
+          </div>
+          <div>
+            Cardice
+          </div>
+        </nav>
       </ion-toolbar>
     </ion-header>
     <ion-content :fullscreen="true">
@@ -12,7 +20,11 @@
         </ion-toolbar>
       </ion-header>
 
-      <ExploreContainer name="Tab 3 page" />
+      <section class="container">
+        <Header />
+
+        <Footer />
+      </section>
     </ion-content>
   </ion-page>
 </template>
@@ -25,5 +37,8 @@ import {
   IonTitle,
   IonContent,
 } from "@ionic/vue";
-import ExploreContainer from "@/components/ExploreContainer.vue";
+import { journalOutline } from "ionicons/icons";
+
+import Header from "@/components/Header.vue";
+import Footer from "@/components/Footer.vue";
 </script>
