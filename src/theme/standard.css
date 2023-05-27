@@ -1,4 +1,5 @@
-*, html,
+*,
+html,
 body {
   font-family: "Poppins", helvetica, arial, sans-serif;
 }
@@ -8,7 +9,6 @@ section.container {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23f08080' fill-opacity='0.03'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   color: white;
   font-size: 14px;
-  height: 100%;
   line-height: 1.5;
   margin: 0 auto;
   padding: 20px 5%;
@@ -32,3 +32,54 @@ nav ion-icon {
   color: var(--ion-color-primary);
   font-size: 1.5rem;
 }
+
+/* SCROLLBAR: */
+
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--ion-color-primary); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(
+    --ion-color-secondary-shade
+  ); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid var(--ion-color-secondary-shade); /* creates padding around scroll thumb */
+}
+
+/* BUTTONS: */
+
+.btn-container {
+  align-items: center;
+  display: flex;
+  margin: 1em 0;
+}
+
+.btn {
+  background-color: var(--ion-color-primary);
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 5px 10px 20px black;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: var(--ion-color-primary-shade);
+}
+
+.btn:active {
+  background-color: var(--ion-color-secondary);
+}
+
+/* AA */

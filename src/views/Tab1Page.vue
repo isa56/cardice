@@ -23,6 +23,8 @@
       <section class="container">
         <Header />
 
+        <Tools />
+
         <Footer />
       </section>
     </ion-content>
@@ -40,4 +42,5 @@ import {
 import { hammerOutline } from "ionicons/icons";
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
+import Tools from "@/components/tools/Tools.vue";
 </script>
