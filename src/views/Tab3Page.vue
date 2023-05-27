@@ -7,9 +7,7 @@
             <ion-icon aria-hidden="true" :icon="journalOutline" />
             <ion-title>Journal</ion-title>
           </div>
-          <div>
-            Cardice
-          </div>
+          <div>Cardice</div>
         </nav>
       </ion-toolbar>
     </ion-header>
@@ -22,6 +20,21 @@
 
       <section class="container">
         <Header />
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div>
+          <h1>THIS PAGE IS STILL UNDER PROGRESS :)</h1>
+          <h2>404</h2>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
 
         <Footer />
       </section>
@@ -42,3 +55,9 @@ import { journalOutline } from "ionicons/icons";
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 </script>
+
+<style scoped>
+div {
+  text-align: center;
+}
+</style>
