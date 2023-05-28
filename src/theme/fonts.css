@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Poppins";
   src: local("Poppins Bold Italic"), local("Poppins-Bold-Italic"),
-    url("/public/fonts/Poppins-BoldItalic.woff2") format("woff2"),
-    url("/public/fonts/Poppins-BoldItalic.woff") format("woff"),
-    url("/cardice-pwa/public/fonts/Poppins-BoldItalic.woff2") format("woff2"),
-    url("/cardice-pwa/public/fonts/Poppins-BoldItalic.woff2") format("woff2");
+    url("/fonts/Poppins-BoldItalic.woff2") format("woff2"),
+    url("/fonts/Poppins-BoldItalic.woff") format("woff"),
+    url("/cardice-pwa/fonts/Poppins-BoldItalic.woff2") format("woff2"),
+    url("/cardice-pwa/fonts/Poppins-BoldItalic.woff2") format("woff2");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -13,10 +13,10 @@
 @font-face {
   font-family: "Poppins";
   src: local("Poppins Bold"), local("Poppins-Bold"),
-    url("/public/fonts/Poppins-Bold.woff2") format("woff2"),
-    url("/public/fonts/Poppins-Bold.woff") format("woff"),
-    url("/cardice-pwa/public/fonts/Poppins-Bold.woff2") format("woff2"),
-    url("/cardice-pwa/public/fonts/Poppins-Bold.woff") format("woff");
+    url("/fonts/Poppins-Bold.woff2") format("woff2"),
+    url("/fonts/Poppins-Bold.woff") format("woff"),
+    url("/cardice-pwa/fonts/Poppins-Bold.woff2") format("woff2"),
+    url("/cardice-pwa/fonts/Poppins-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -25,10 +25,10 @@
 @font-face {
   font-family: "Poppins";
   src: local("Poppins Black"), local("Poppins-Black"),
-    url("/public/fonts/Poppins-Black.woff2") format("woff2"),
-    url("/public/fonts/Poppins-Black.woff") format("woff"),
-    url("/cardice-pwa/public/fonts/Poppins-Black.woff2") format("woff2"),
-    url("/cardice-pwa/public/fonts/Poppins-Black.woff") format("woff");
+    url("/fonts/Poppins-Black.woff2") format("woff2"),
+    url("/fonts/Poppins-Black.woff") format("woff"),
+    url("/cardice-pwa/fonts/Poppins-Black.woff2") format("woff2"),
+    url("/cardice-pwa/fonts/Poppins-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -37,10 +37,10 @@
 @font-face {
   font-family: "Poppins";
   src: local("Poppins Light"), local("Poppins-Light"),
-    url("/public/fonts/Poppins-Light.woff2") format("woff2"),
-    url("/public/fonts/Poppins-Light.woff") format("woff"),
-    url("/cardice-pwa/public/fonts/Poppins-Light.woff2") format("woff2"),
-    url("/cardice-pwa/public/fonts/Poppins-Light.woff") format("woff");
+    url("/fonts/Poppins-Light.woff2") format("woff2"),
+    url("/fonts/Poppins-Light.woff") format("woff"),
+    url("/cardice-pwa/fonts/Poppins-Light.woff2") format("woff2"),
+    url("/cardice-pwa/fonts/Poppins-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -49,10 +49,10 @@
 @font-face {
   font-family: "Poppins";
   src: local("Poppins Medium"), local("Poppins-Medium"),
-    url("/public/fonts/Poppins-Medium.woff2") format("woff2"),
-    url("/public/fonts/Poppins-Medium.woff") format("woff"),
-    url("/cardice-pwa/public/fonts/Poppins-Medium.woff2") format("woff2"),
-    url("/cardice-pwa/public/fonts/Poppins-Medium.woff") format("woff");
+    url("/fonts/Poppins-Medium.woff2") format("woff2"),
+    url("/fonts/Poppins-Medium.woff") format("woff"),
+    url("/cardice-pwa/fonts/Poppins-Medium.woff2") format("woff2"),
+    url("/cardice-pwa/fonts/Poppins-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -61,10 +61,10 @@
 @font-face {
   font-family: "Poppins";
   src: local("Poppins Italic"), local("Poppins-Italic"),
-    url("/public/fonts/Poppins-Italic.woff2") format("woff2"),
-    url("/public/fonts/Poppins-Italic.woff") format("woff"),
-    url("/cardice-pwa/public/fonts/Poppins-Italic.woff2") format("woff2"),
-    url("/cardice-pwa/public/fonts/Poppins-Italic.woff") format("woff");
+    url("/fonts/Poppins-Italic.woff2") format("woff2"),
+    url("/fonts/Poppins-Italic.woff") format("woff"),
+    url("/cardice-pwa/fonts/Poppins-Italic.woff2") format("woff2"),
+    url("/cardice-pwa/fonts/Poppins-Italic.woff") format("woff");
 
   font-weight: normal;
   font-style: italic;
@@ -74,10 +74,10 @@
 @font-face {
   font-family: "Poppins";
   src: local("Poppins Medium Italic"), local("Poppins-Medium-Italic"),
-    url("/public/fonts/Poppins-MediumItalic.woff2") format("woff2"),
-    url("/public/fonts/Poppins-MediumItalic.woff") format("woff"),
-    url("/cardice-pwa/public/fonts/Poppins-MediumItalic.woff") format("woff"),
-    url("/cardice-pwa/public/fonts/Poppins-MediumItalic.woff2") format("woff2");
+    url("/fonts/Poppins-MediumItalic.woff2") format("woff2"),
+    url("/fonts/Poppins-MediumItalic.woff") format("woff"),
+    url("/cardice-pwa/fonts/Poppins-MediumItalic.woff") format("woff"),
+    url("/cardice-pwa/fonts/Poppins-MediumItalic.woff2") format("woff2");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -86,10 +86,10 @@
 @font-face {
   font-family: "Poppins";
   src: local("Poppins Regular"), local("Poppins-Regular"),
-    url("/public/fonts/Poppins-Regular.woff") format("woff"),
-    url("/public/fonts/Poppins-Regular.woff2") format("woff2"),
-    url("/cardice-pwa/public/fonts/Poppins-Regular.woff2") format("woff2"),
-    url("/cardice-pwa/public/fonts/Poppins-Regular.woff") format("woff");
+    url("/fonts/Poppins-Regular.woff") format("woff"),
+    url("/fonts/Poppins-Regular.woff2") format("woff2"),
+    url("/cardice-pwa/fonts/Poppins-Regular.woff2") format("woff2"),
+    url("/cardice-pwa/fonts/Poppins-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -101,8 +101,8 @@
   font-style: normal;
   font-weight: 100 700;
   src: local("Material Icons"), local("Material-Icons"),
-    url("/public/fonts/Material-Icons.woff2") format("woff2"),
-    url("/cardice-pwa/public/fonts/Material-Icons.woff2") format("woff2");
+    url("/fonts/Material-Icons.woff2") format("woff2"),
+    url("/cardice-pwa/fonts/Material-Icons.woff2") format("woff2");
 }
 
 .material-symbols-outlined {
@@ -127,8 +127,8 @@
   font-style: normal;
   font-weight: 700;
   src: local("Material Rounded"), local("Material-Rounded"),
-    url("/public/fonts/Material-Rounded.woff2") format("woff2"),
-    url("/cardice-pwa/public/fonts/Material-Rounded.woff2") format("woff2");
+    url("/fonts/Material-Rounded.woff2") format("woff2"),
+    url("/cardice-pwa/fonts/Material-Rounded.woff2") format("woff2");
 }
 
 .material-symbols-rounded {
