@@ -25,6 +25,8 @@ import "./theme/variables.css";
 import "./theme/fonts.css";
 import "./theme/standard.css";
 
+import "./registerServiceWorker";
+
 const app = createApp(App).use(IonicVue).use(router);
 
 router.isReady().then(() => {
