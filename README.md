@@ -1,6 +1,6 @@
 # Cardice
 ## Simple Card Dealer and Dice Roller Website
-<!-- [Cardice](https://isa56.github.io/cardice-pwa/) -->
+[Cardice](https://cardice.vercel.app/)
 
 ### What is this?
 Cardice is a simple website that allows you to deal random cards and roll a custom dice. It is a Progressive Web App (PWA) made with Vue and Ionic that can be installed on your device and be used offline.
